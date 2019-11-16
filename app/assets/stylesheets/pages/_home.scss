@@ -20,6 +20,7 @@
   justify-content: center;
   margin: 50px 0px;
   text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .card-img-top {
@@ -30,7 +31,7 @@
 .btn {
   background-color: grey;
   border: 1px solid grey;
-  margin: 20px;
+  margin: 10px;
 }
 
 .add {
@@ -49,5 +50,9 @@
 
 #new-cocktail {
   text-align: left;
+}
+
+body {
+  background-color: #f1f1f1;
 }
 
