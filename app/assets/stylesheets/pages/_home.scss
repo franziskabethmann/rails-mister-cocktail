@@ -1,1 +1,53 @@
 // Specific CSS for your home-page
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 50px
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn {
+  background-color: grey;
+  border: 1px solid grey;
+  margin: 20px;
+}
+
+.add {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cocktail-photo {
+  text-align: center;
+}
+
+#new-cocktail {
+  text-align: left;
+}
+
